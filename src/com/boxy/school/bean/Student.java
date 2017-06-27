@@ -6,6 +6,11 @@ import com.bosic.tools.dao.internal.annotation.Column;
 import com.bosic.tools.dao.internal.annotation.Entity;
 import com.bosic.tools.dao.internal.annotation.Key;
 
+/**
+ * 学生实体
+ * @author Administrator
+ *
+ */
 @Entity("students")
 public class Student {
 	@Key
